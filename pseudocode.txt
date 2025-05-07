@@ -1,0 +1,10 @@
+layout:
+3 columns:
+sidebar, 
+main content/nav bar
+announcements 
+4? rows:
+sidebar som tar spane alle rows
+navbar
+main content: 3 rows
+announcements/trending span 3 rows
