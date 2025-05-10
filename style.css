@@ -17,4 +17,34 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+header {
+    font-size: 2em;
+    color: white;
+}
+
+.sidebar {
+    display: grid;
+    background-color: purple;
+    font-size: 1.5em;
+    color: white;
+    grid-row: span 4;
+}
+
+.navbar {
+    display: grid;
+    grid-column: span 2;
+}
+
+.article {
+    display: grid;
+    grid-row: 3 / 4;
+    grid-column: 2;
+}
+
+.announcements {
+    display: grid;
+    grid-column: 3;
 }
