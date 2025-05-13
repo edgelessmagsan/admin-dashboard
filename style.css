@@ -38,10 +38,37 @@ header {
     grid-column: span 2;
 }
 
+.navbar input {
+    display: grid;
+    width: 50em;
+    height: 2em;
+    border-radius: 20px;
+}
+
+.navbar button {
+    display: grid;
+    background-color: purple;
+    width: 10em;
+    place-content: center;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
 .article {
     display: grid;
     grid-row: 3 / 4;
-    grid-column: 2;
+    grid-column: 2/-2;
+}
+
+.card {
+    display: grid;
+    padding: 15px;
+    border-color: green;
+}
+/* SVGs for icons */
+.article img {
+    display: grid;
 }
 
 .announcements {
