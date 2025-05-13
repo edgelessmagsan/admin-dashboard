@@ -25,6 +25,12 @@ header {
     color: white;
 }
 
+.sidebar,
+.navbar,
+.announcements {
+    padding: 25px;
+}
+
 .sidebar {
     display: grid;
     background-color: purple;
@@ -36,6 +42,8 @@ header {
 .navbar {
     display: grid;
     grid-column: span 2;
+    grid-row: span 2;
+    padding: 15px;
 }
 
 .navbar input {
@@ -50,7 +58,6 @@ header {
     background-color: purple;
     max-width: 10em;
     max-height: 3em;
-
     place-content: center;
     border-radius: 12px;
     color: white;
@@ -58,7 +65,8 @@ header {
     grid-column: 4;
 }
 
-.navbar a {
+.navbar a,
+.navbar img {
     display: grid;
     grid-row: 1;
     grid-column: 4;
@@ -71,18 +79,24 @@ header {
 
 .article {
     display: grid;
-    grid-row: 3 / 4;
-    grid-column: 2/-2;
+    grid-template-columns: 50% 50%;
+    gap: 1.5em;
 }
 
 .card {
     display: grid;
     padding: 15px;
-    border-color: green;
+    background-color: white;
+    border-radius: 10px;
+}
+.card p {
+    display: grid;
+    width: 50%;
 }
 /* SVGs for icons */
 .card > img {
     display: grid;
+    place-content: end;
 }
 
 .announcements {
