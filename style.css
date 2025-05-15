@@ -96,6 +96,7 @@ header {
 }
 /*card SVG css */
 
+.navbar embed,
 .card embed {
     display: grid;
     place-content: center;
