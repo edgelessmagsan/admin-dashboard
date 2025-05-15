@@ -94,12 +94,17 @@ header {
     display: grid;
     width: 50%;
 }
+
 /*card SVG css */
+.svg {
+    display: grid;
+    place-content: end;
+    grid-row: 3;
+}
 
 .navbar embed,
 .card embed {
     display: grid;
-    place-content: center;
     width: 1.5em;
     height: 1.5em;
 }
