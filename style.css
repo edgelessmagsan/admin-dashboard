@@ -98,8 +98,8 @@ header {
 /*card SVG css */
 .svg {
     display: grid;
+    grid-template-columns: repeat(3, 50px);
     place-content: end;
-    grid-row: 3;
 }
 
 .navbar embed,
