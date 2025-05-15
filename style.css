@@ -33,6 +33,7 @@ header {
 }
 
 .sidebar {
+    border-left-color: black;
     display: grid;
     background-color: purple;
     font-size: 1.5em;
@@ -81,6 +82,7 @@ header {
 .article {
     display: grid;
     grid-template-columns: 45% 45%;
+    padding: 0.5em;
     gap: 1.5em;
 }
 
@@ -89,6 +91,8 @@ header {
     padding: 15px;
     background-color: white;
     border-radius: 10px;
+    border-left: 0.5em solid;
+    border-color: orange;
 }
 .card p {
     display: grid;
