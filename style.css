@@ -17,7 +17,8 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-columns: 0.5fr 2fr 1fr;
 }
 
 header {
@@ -79,7 +80,7 @@ header {
 
 .article {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 45%;
     gap: 1.5em;
 }
 
@@ -93,10 +94,13 @@ header {
     display: grid;
     width: 50%;
 }
-/* SVGs for icons */
-.card > img {
+/*card SVG css */
+
+.card embed {
     display: grid;
-    place-content: end;
+    place-content: center;
+    width: 1.5em;
+    height: 1.5em;
 }
 
 .announcements {
