@@ -50,6 +50,7 @@ header {
     padding: 15px;
     max-height: 200px;
     background-color: white;
+    box-shadow: 1px 3px #888888;
 }
 
 /* input,bell, name/home */
@@ -98,10 +99,8 @@ header {
 
 .article {
     display: grid;
-    grid-column: auto;
-    grid-row: auto;
-    grid-template-columns: 45% 45%;
-    padding: 0.5em;
+    grid-template-columns: 2fr 2fr;
+    padding: 2em;
     gap: 1.5em;
 }
 
@@ -111,6 +110,7 @@ header {
     background-color: white;
     border-radius: 10px;
     border-left: 0.5em solid orange;
+    box-shadow: 1px 3px 10px #888888;
 }
 .card p {
     display: grid;
@@ -132,9 +132,11 @@ header {
 }
 
 .announcements {
+    padding-right: 50px;
     display: grid;
     grid-column: 3;
-    grid-row: 3 / 4;
+    grid-row: 3 / span 3;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 1px 3px 10px #888888;
 }
