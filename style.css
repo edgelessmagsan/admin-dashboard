@@ -97,20 +97,18 @@ header {
     display: grid;
 }
 
-.headline {
-    padding-left: 50px;
-    padding-top: 50px;
-    grid-template-columns: 50% 50%;
-    display: grid;
-}
-
 .main {
     display: grid;
     grid-column: span 2;
-    grid-template-columns: 1fr 0.5fr;
-    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5%;
 }
 
+.main h1 {
+    display: grid;
+    grid-column: span 2;
+    padding: 50px;
+}
 .article {
     display: grid;
     grid-column: 1;
@@ -146,7 +144,7 @@ header {
     height: 1.5em;
 }
 
-.announcements {
+.announcements.section {
     display: grid;
     grid-column: 2;
     background-color: white;
