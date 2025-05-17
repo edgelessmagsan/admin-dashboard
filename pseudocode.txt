@@ -1,10 +1,2 @@
-layout:
-3 columns:
-sidebar, 
-main content/nav bar
-announcements 
-4? rows:
-sidebar som spanner alle rows
-navbar
-main content: 3 rows
-announcements/trending span 3 rows
+TODO 18.5.25 
+lag main section med 2 seksjoner
