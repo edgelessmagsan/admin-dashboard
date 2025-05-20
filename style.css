@@ -49,8 +49,10 @@ header {
     grid-template-rows: 200px;
     grid-row: span 4;
 }
-.container li {
+.container li,
+a {
     list-style: none;
+    text-decoration: none;
 }
 .navbar {
     display: grid;
