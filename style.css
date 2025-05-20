@@ -16,7 +16,7 @@ body {
     height: 100vh;
     width: 90vw;
     display: grid;
-    grid-template-rows: 100px 0.5fr 100px;
+    grid-template-rows: 100px 1fr 100px;
     grid-template-columns: 0.5fr 1fr 1fr;
 }
 
@@ -31,23 +31,33 @@ header {
     padding: 25px;
 }
 
+.sidebar ul > li {
+    display: grid;
+    font-size: 1.5em;
+}
+
+.sidebar p {
+    font-size: 2em;
+}
+
 .sidebar {
     border-left-color: black;
     display: grid;
     background-color: purple;
-    font-size: 1.5em;
+    font-size: 2em;
     color: white;
-    grid-row: span 3;
+    grid-template-rows: 200px;
+    grid-row: span 2;
 }
 .container li {
     list-style: none;
 }
 .navbar {
     display: grid;
-    min-height: 150px;
+    min-height: 200px;
     grid-column: span 2;
     padding: 15px;
-    max-height: 200px;
+    max-height: 300px;
     background-color: white;
     box-shadow: 1px 3px #888888;
 }
@@ -92,20 +102,18 @@ header {
     grid-column: 4;
 }
 
-.navrow2 p {
-    display: grid;
-}
-
 .main {
     display: grid;
     grid-column: span 2;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-row: span 1;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.5fr;
+    padding-top: 50px;
 }
 
 .article {
     display: grid;
-    grid-column: 1;
+    grid-column: span 1;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr 0.5fr;
     padding-top: 100px;
@@ -119,6 +127,7 @@ header {
 .card {
     display: grid;
     padding: 15px;
+    width: 30em;
     background-color: white;
     border-radius: 10px;
     border-left: 0.5em solid orange;
@@ -142,23 +151,27 @@ header {
     height: 1.5em;
 }
 
+.right h1 {
+    padding-top: 100px;
+}
+
 .right {
     display: grid;
-    gap: 5em;
-    padding-top: 100px;
     padding-left: 50px;
-    grid-row: span 2;
+    grid-column: span 1;
 }
 
 .right ul {
     display: grid;
+    padding: 10px;
     font-size: 1.5em;
 }
 
 .announcements,
 .trending {
     display: grid;
-    grid-row: span 3;
+    grid-column: 1;
+    grid-row: span 1;
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 3px 10px #888888;
