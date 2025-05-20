@@ -16,8 +16,8 @@ body {
     height: 100vh;
     width: 90vw;
     display: grid;
-    grid-template-rows: 100px 1fr 100px;
-    grid-template-columns: 0.5fr 2fr 1fr;
+    grid-template-rows: 100px 0.5fr 100px;
+    grid-template-columns: 0.5fr 1fr 1fr;
 }
 
 header {
@@ -37,9 +37,11 @@ header {
     background-color: purple;
     font-size: 1.5em;
     color: white;
-    grid-row: span 4;
+    grid-row: span 3;
 }
-
+.container li {
+    list-style: none;
+}
 .navbar {
     display: grid;
     min-height: 150px;
@@ -48,9 +50,6 @@ header {
     max-height: 200px;
     background-color: white;
     box-shadow: 1px 3px #888888;
-}
-.container li {
-    list-style: none;
 }
 
 /* input,bell, name/home */
@@ -101,14 +100,16 @@ header {
     display: grid;
     grid-column: span 2;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
 }
 
 .article {
     display: grid;
     grid-column: 1;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 50% 50%;
-    padding: 1em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    padding-top: 100px;
+    padding-left: 50px;
     gap: 1.5em;
 }
 
@@ -121,8 +122,7 @@ header {
     box-shadow: 1px 3px 10px #888888;
 }
 .card p {
-    display: grid;
-    width: 50%;
+    padding-bottom: 3em;
 }
 
 /*card SVG css */
@@ -139,9 +139,15 @@ header {
     height: 1.5em;
 }
 
-.announcements.section {
+.right {
     display: grid;
-    grid-column: 2;
+    grid-row: span 4;
+}
+
+.announcements,
+.trending {
+    display: grid;
+    grid-row: span 3;
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 3px 10px #888888;
