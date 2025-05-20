@@ -113,6 +113,9 @@ header {
     gap: 1.5em;
 }
 
+.card h4 {
+    font-size: 1.5em;
+}
 .card {
     display: grid;
     padding: 15px;
@@ -141,7 +144,15 @@ header {
 
 .right {
     display: grid;
-    grid-row: span 4;
+    gap: 5em;
+    padding-top: 100px;
+    padding-left: 50px;
+    grid-row: span 2;
+}
+
+.right ul {
+    display: grid;
+    font-size: 1.5em;
 }
 
 .announcements,
