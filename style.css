@@ -34,10 +34,11 @@ header {
 .sidebar ul > li {
     display: grid;
     font-size: 1.5em;
+    padding-left: 10px;
 }
 
 .sidebar p {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .sidebar {
@@ -57,9 +58,7 @@ a {
 .navbar {
     display: grid;
     grid-column: span 2/4;
-    width: 100%;
     min-height: 200px;
-    padding: 15px;
     max-height: 300px;
     background-color: white;
     box-shadow: 1px 3px #888888;
@@ -91,7 +90,7 @@ a {
     grid-row: 2;
     background-color: purple;
     width: 100px;
-    height: 30px;
+    height: 40px;
     place-content: center;
     border-radius: 12px;
     color: white;
@@ -172,11 +171,14 @@ a {
     font-size: 1.5em;
 }
 
+.right h1 {
+    padding-bottom: 0.5em;
+}
 .announcements,
 .trending {
     display: grid;
     grid-column: 1;
-    grid-row: span 1;
+    height: 400px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 3px 10px #888888;
