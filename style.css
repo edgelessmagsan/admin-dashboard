@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
@@ -38,18 +39,25 @@ header {
 }
 
 .sidebar p {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
+.sidebar.settings {
+    font-size: 20px;
+    gap: 20px;
+    padding: 0;
+    padding-top: 50px;
+}
 .sidebar {
     border-left-color: black;
     display: grid;
     background-color: purple;
-    font-size: 2em;
+    font-size: 20px;
     color: white;
     grid-template-rows: 200px;
-    grid-row: span 4;
+    grid-row: span 3;
 }
+
 .container li,
 a {
     list-style: none;
@@ -67,9 +75,21 @@ a {
 /* input,bell, name/home */
 .navrow1 {
     display: grid;
+    grid-template-columns: 20% 50%;
     grid-row: 1;
 }
 
+.navrow1 embed {
+    display: grid;
+    grid-column: 2;
+}
+
+.navrow1 a {
+    display: grid;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+}
 .navbar input {
     display: grid;
     grid-row: 1;
@@ -183,10 +203,24 @@ a {
 .right p {
     font-size: 15px;
 }
+
+/* last li in announcement made bold */
+
+.announcements #bold {
+    font-weight: bold;
+}
+
+/* really hacky way to give a line between paragraphs */
+.trending.announcements,
+.trending.announcements strong {
+    font-weight: normal;
+    border: none;
+}
 .announcements,
 .trending {
     display: grid;
     grid-column: 1;
+    min-height: fit-content;
     height: 400px;
     background-color: white;
     border-radius: 10px;
