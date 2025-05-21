@@ -95,6 +95,7 @@ a {
     width: 50em;
     height: 2em;
     border-radius: 20px;
+    padding: 1em;
 }
 .navrow2 {
     display: grid;
