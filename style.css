@@ -113,6 +113,19 @@ a {
 }
 .navrow2 {
     display: grid;
+    font-size: 20px;
+    font-weight: bold;
+    grid-template-columns: 50% 50%;
+}
+
+.navrow2 li {
+    display: grid;
+    font-size: 15px;
+}
+
+.navrow2 embed {
+    display: grid;
+    height: 100px;
 }
 
 .buttons {
