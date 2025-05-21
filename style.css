@@ -43,6 +43,7 @@ header {
     grid-template-columns: 30% 30%;
     font-size: 1.2em;
 }
+
 .sidebar embed {
     width: 30px;
 }
@@ -242,6 +243,17 @@ a {
 .trending.announcements strong {
     font-weight: normal;
     border: none;
+}
+
+.trending div {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 30% 30%;
+    font-size: 1.2em;
+}
+
+.trending embed {
+    height: 30px;
 }
 .announcements,
 .trending {
