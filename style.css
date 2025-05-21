@@ -31,10 +31,20 @@ header {
     padding: 25px;
 }
 
-.sidebar ul > li {
+/* hacky way to get space between items */
+.gap {
     display: grid;
-    font-size: 1.5em;
-    padding-left: 10px;
+    height: 50px;
+}
+
+.sidebar ul div {
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 30% 30%;
+    font-size: 1.2em;
+}
+.sidebar embed {
+    width: 30px;
 }
 
 .sidebar p {
