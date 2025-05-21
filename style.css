@@ -95,7 +95,7 @@ a {
 /* input,bell, name/home */
 .navrow1 {
     display: grid;
-    grid-template-columns: 10% 20% 30% 30%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1;
 }
 .navrow1 a {
