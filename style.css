@@ -72,15 +72,19 @@ a {
     box-shadow: 1px 3px #888888;
 }
 
+#bell embed {
+    display: grid;
+}
+
 #icon embed {
     display: grid;
-    width: 80%;
+    width: 70%;
     height: auto;
 }
 /* input,bell, name/home */
 .navrow1 {
     display: grid;
-    grid-template-columns: 30% 20% 30%;
+    grid-template-columns: 10% 20% 30% 30%;
     grid-row: 1;
 }
 .navrow1 a {
