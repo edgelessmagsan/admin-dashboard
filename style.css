@@ -89,8 +89,8 @@ a {
 
 #icon embed {
     display: grid;
-    width: 70%;
-    height: auto;
+    width: 70px;
+    height: 70px;
 }
 /* input,bell, name/home */
 .navrow1 {
