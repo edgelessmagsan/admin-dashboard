@@ -1,0 +1,289 @@
+[33mcommit 67931b49188b978aed28414e4be52614d7590c72[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 0481dca b0697d5
+Author: edgelessmagsan <19634056+edgelessmagsan@users.noreply.github.com>
+Date:   Wed Aug 20 18:01:30 2025 +0200
+
+    Merge branch 'main' of github.com:edgelessmagsan/admin-dashboard
+
+[33mcommit 0481dcaece635ccbedf3c3fcfe4cb53085cbd511[m
+Author: edgelessmagsan <19634056+edgelessmagsan@users.noreply.github.com>
+Date:   Wed Aug 20 18:01:18 2025 +0200
+
+    test remove email
+
+[33mcommit b0697d5a3d627cf3f7fff6aa3de5b09f711afde1[m
+Merge: 19075cd 35dd193
+Author: edgelessmagsan <19634056+edgelessmagsan@users.noreply.github.com>
+Date:   Wed Aug 20 17:49:47 2025 +0200
+
+    Merge branch 'main' of github.com:edgelessmagsan/admin-dashboard
+
+[33mcommit 19075cd4c541246fd34d75301f38df6a0fa992bc[m
+Author: edgelessmagsan <19634056+edgelessmagsan@users.noreply.github.com>
+Date:   Wed Aug 20 17:49:33 2025 +0200
+
+    test with correct email
+
+[33mcommit 35dd1938ae68f43362b83b91293b85c7efe4920e[m
+Author: edgelessmagsan <magnus.tk@hotmail.com>
+Date:   Wed Aug 20 17:32:10 2025 +0200
+
+    fixed navrow buttons getting overflowed due to icon picture size
+
+[33mcommit 3195a80b9f067d87af85a555d0a712c9709985bb[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 19:29:29 2025 +0200
+
+    adjusted announcement alignment
+
+[33mcommit b614914e19c7e842d3889dedc21f55d6fe80f446[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 19:26:11 2025 +0200
+
+    adjusted announcement alignment
+
+[33mcommit 4e3e42a0ca67cdd3e88f42b7081fb9a0c5e12796[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 18:57:36 2025 +0200
+
+    adjusted navbar
+
+[33mcommit 31b24fa8612a5553fd3e784f85d9dfd15c1583f3[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 18:56:40 2025 +0200
+
+    finished trending section
+
+[33mcommit 0538f8c9cf473911e3723563919b77f0771ea3fc[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 18:37:37 2025 +0200
+
+    adjusted navbar2
+
+[33mcommit c719610d6eb4c4fd6c96030f420a615774e7212d[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 18:35:55 2025 +0200
+
+    adjusted navbar2
+
+[33mcommit f9720eb8a0d493bf3c5c00fc0283521c5742ce10[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 17:53:39 2025 +0200
+
+    adjusted sidebar
+
+[33mcommit 592b360eaec55b24f5dd282e1075af3ff5515cf8[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 17:24:03 2025 +0200
+
+    adjusted navbar
+
+[33mcommit 0bdcd9bd54f05e73336ddd8cca6f2852b6fc4ff1[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 12:46:31 2025 +0200
+
+    finishing styling the navbar almost. same with sidebar
+
+[33mcommit eef193249813f65a68d215b9fa9ccdb12d44ddfb[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 12:09:04 2025 +0200
+
+    finishing styling the navbar almost. same with sidebar
+
+[33mcommit 5ba5db28423804157a9fbd90cad306e0d1f41a2e[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 21 11:58:40 2025 +0200
+
+    finishing styling the navbar almost. same with sidebar
+
+[33mcommit 218d6aa2046606b5d374ca5a941717363c0fcbe6[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 23:56:06 2025 +0200
+
+    added lines to announce divs
+
+[33mcommit fd02ae34b4180530b0941967fac67163ce374f98[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 23:51:46 2025 +0200
+
+    added lines to announce divs
+
+[33mcommit 27bcd197c4bf82bb830541024a0f8d6f34c167ec[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 23:42:16 2025 +0200
+
+    almost done with layout
+
+[33mcommit 9bedc7f779f180083c338b19f6af03f768a08d03[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 23:28:13 2025 +0200
+
+    removed hyperlink decoration
+
+[33mcommit 59342d7909b23e2b01d13af63902ce4f8372e4f4[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 23:24:12 2025 +0200
+
+    almost done with layout
+
+[33mcommit 38f45f2d4b728a7ffe918f124828b67ef1614067[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 23:14:59 2025 +0200
+
+    almost done with layout
+
+[33mcommit 049f1b3c1feb218ead5782b17d2baf3e9b1bb479[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 22:06:23 2025 +0200
+
+    fixed card section alignment
+
+[33mcommit 1c6b0b64d5350a765fcc913d10b4d4ac43c0578e[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 21:34:07 2025 +0200
+
+    added right sidebar section
+
+[33mcommit d187849cf236c7fda2f84567c55ab55aa88b5cc1[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 21:01:45 2025 +0200
+
+    added cards back correctly
+
+[33mcommit bf688ff6545c0e86822f3918b7912e25e458c02a[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 20 20:36:04 2025 +0200
+
+    added back card divs
+
+[33mcommit 96943e8070ac528026d4adcf3a3d445213e2782c[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Sun May 18 00:11:11 2025 +0200
+
+    removed main
+
+[33mcommit c4e35a16bf0c9844db7f9c634a4ae29fee24c0ec[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Sun May 18 00:10:36 2025 +0200
+
+    removed main
+
+[33mcommit 82e37daa764d79b552200e94142bef220ed38d75[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Sat May 17 23:28:06 2025 +0200
+
+    remove li decoration
+
+[33mcommit b1cd2f56a76915e5100a358d8a2efa9d066d7d67[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Sat May 17 23:21:57 2025 +0200
+
+    fixing card alignment + assignment
+
+[33mcommit 5128f7eab7fbf96888545678db0b56a20099e4b0[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Sat May 17 22:09:49 2025 +0200
+
+    put cards in main content div
+
+[33mcommit 9b0373c36c6a8cfa880bbd15f8cdaec06f878f4d[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Sat May 17 21:48:28 2025 +0200
+
+    aligned button + name row better
+
+[33mcommit de306ebb012596fd66b054627f86ee437ecffa3c[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Thu May 15 13:15:38 2025 +0200
+
+    added border to cards
+
+[33mcommit 8f3cdb0487ded75b6a16110b577fb5d6ed9ee3ba[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Thu May 15 13:04:15 2025 +0200
+
+    fixed svg card placement!
+
+[33mcommit 61d563f233c95e77511b6f6266233b9d6d5cd120[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Thu May 15 12:59:57 2025 +0200
+
+    placed svgs in separate divs
+
+[33mcommit 553a86647da7e5a8094a56acddd9a6bba0d20599[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Thu May 15 12:25:50 2025 +0200
+
+    changed svg css for navbar too
+
+[33mcommit 91f0e7ac32c02f0d8ae0de73fa4050b5ddc8bb79[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Thu May 15 12:21:42 2025 +0200
+
+    changed html for svgs to reduce LOCs. updated css too
+
+[33mcommit d169f197e1b467405bbdaef893b5faa281d5ca7d[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 13 23:15:59 2025 +0200
+
+    made cards white, so its easier to visualize... shouldve done that sooner
+
+[33mcommit 6a7386e80588cf8746aa1586a44e4cda86161aef[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 13 22:35:37 2025 +0200
+
+    working on laying things out on the page
+
+[33mcommit b022f5124bcc005fa75ad714284da371e2d42999[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Tue May 13 22:12:59 2025 +0200
+
+    fixed prettier complaining about closing tag in index.html. added </div>
+
+[33mcommit 8a088a847fbd0cbcb4db34ee3ff53b80184d1461[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Sat May 10 11:38:53 2025 +0200
+
+    started on grid layout alignment
+
+[33mcommit 6f041bd7e9c3be6c4900a12ff33feaea69e5fd8f[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 7 21:40:09 2025 +0200
+
+    push latest changes
+
+[33mcommit b5b3e81102c7006c75d9a5bea4f0df3cc0b1b6bf[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 7 17:10:45 2025 +0200
+
+    basic css done, added background color, set height/width of container
+
+[33mcommit 1d137991ebffb91a7ff3ac55296a4e0f820ba6b4[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 7 16:52:18 2025 +0200
+
+    more html skeleton stuff
+
+[33mcommit 92ba58e3f7e9066321123869afa72acfd0e7be53[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 7 16:31:39 2025 +0200
+
+    added css reset rules
+
+[33mcommit e1122d1c6ef253887792bfb6691abd7605a51de4[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 7 16:17:08 2025 +0200
+
+    started on html skeleton.
+
+[33mcommit 40358b2bce9fdf7a4e2566836d44a64ffcb17cc9[m
+Author: edgelessmagsan <19634056+Magsamm@users.noreply.github.com>
+Date:   Wed May 7 15:18:47 2025 +0200
+
+    initial commit
+
+[33mcommit 08aa68a0a0d560a439f09410fc90d1c255643b81[m
+Author: edgelessmagsan <19634056+edgelessmagsan@users.noreply.github.com>
+Date:   Wed May 7 15:14:37 2025 +0200
+
+    Initial commit
