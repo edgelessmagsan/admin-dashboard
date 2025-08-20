@@ -89,8 +89,8 @@ a {
 
 #icon embed {
     display: grid;
-    width: 70%;
-    height: auto;
+    width: 70px;
+    height: 70px;
 }
 /* input,bell, name/home */
 .navrow1 {
@@ -210,22 +210,21 @@ a {
     display: grid;
     padding-left: 50px;
     padding-right: 50px;
-    grid-column: span 1;
+    padding-top: 50px;
+}
+
+h1 {
+    padding-top: 50px;
 }
 
 .right ul {
     display: grid;
-    padding: 10px;
     font-size: 1.3em;
 }
 
 .announcements strong {
     border-bottom: 1px solid black;
     padding: 2px;
-}
-
-.right h1 {
-    padding-bottom: 0.5em;
 }
 
 .right p {
@@ -245,6 +244,10 @@ a {
     border: none;
 }
 
+.right h1 {
+    padding-bottom: 0.8em;
+}
+
 .trending div {
     display: grid;
     padding: 5px;
@@ -260,7 +263,7 @@ a {
     display: grid;
     grid-column: 1;
     min-height: fit-content;
-    height: 400px;
+    height: 300px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 3px 10px #888888;
