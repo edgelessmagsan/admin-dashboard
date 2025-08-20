@@ -28,7 +28,6 @@ header {
 .navbar,
 .announcements {
     padding: 25px;
-    row-gap: 50px;
 }
 
 /* hacky way to get space between items */
@@ -40,23 +39,20 @@ header {
 .sidebar ul div {
     display: grid;
     grid-template-columns: 30% 30%;
-    font-size: 1.2em;
+    font-size: 30px;
+    min-width: 150px;
+    max-width: 150px;
 }
 
 .sidebar embed {
-    width: 30px;
+    height: 30px;
+    max-width: 30px;
 }
 
 .sidebar p {
     font-size: 2.5em;
 }
 
-.sidebar.settings {
-    font-size: 20px;
-    gap: 20px;
-    padding: 0;
-    padding-top: 50px;
-}
 .sidebar {
     border-left-color: black;
     display: grid;
@@ -64,13 +60,13 @@ header {
     font-size: 20px;
     color: white;
     grid-template-rows: 200px;
-    grid-row: span 3;
+    grid-row: span 4;
 }
 
-.container li,
-a {
+.container li {
     list-style: none;
     text-decoration: none;
+    font-size: 30px;
 }
 .navbar {
     display: grid;
@@ -156,6 +152,11 @@ a {
     grid-column: span 2;
     grid-template-columns: 3fr 1fr;
     padding: 50px;
+}
+
+.main h1 {
+    display: grid;
+    padding-left: 50px;
 }
 
 .article {
