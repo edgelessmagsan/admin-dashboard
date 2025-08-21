@@ -72,8 +72,6 @@ header {
     display: grid;
     grid-column: span 2/4;
     gap: 10px;
-    min-height: 200px;
-    max-height: 300px;
     background-color: white;
     box-shadow: 1px 3px #888888;
 }
@@ -90,8 +88,14 @@ header {
 /* input,bell, name/home */
 .navrow1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-row: 1;
+    place-content: end;
+    gap: 20px;
+}
+
+.navrow1 div {
+    display: grid;
+    grid-row: 2;
 }
 .navrow1 a {
     display: grid;
@@ -126,6 +130,8 @@ header {
 
 .buttons {
     display: grid;
+    justify-content: right;
+    gap: 10px;
 }
 
 .navbar button {
@@ -220,8 +226,7 @@ header {
 
 .trending div {
     display: grid;
-    grid-template-columns: 30% 30%;
-    padding: 10px;
+    grid-template-columns: 30% 30% 30%;
     gap: 15px;
     max-width: fit-content;
 }
