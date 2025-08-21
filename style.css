@@ -102,35 +102,39 @@ header {
     font-size: 1.5em;
     font-weight: bold;
     color: black;
+    justify-content: space-around;
 }
-.navbar input {
+input {
     display: grid;
-    grid-row: 1;
+    grid-row: 2;
     width: 50em;
-    height: 2em;
+    height: 3em;
     border-radius: 20px;
     padding: 1em;
+    place-self: start;
 }
-.navrow2 {
+.navrow2 div {
     display: grid;
-    font-size: 20px;
+    grid-row: 2;
     font-weight: bold;
-    grid-template-columns: 50% 50%;
+}
+
+.welcome div {
+    display: grid;
+    max-width: fit-content;
+    font-size: 25px;
 }
 
 .navrow2 li {
     display: grid;
-    font-size: 15px;
+    display: grid;
+    font-size: 20px;
 }
 
-.navrow2 embed {
+.navrow2 .buttons {
     display: grid;
-    height: 100px;
-}
-
-.buttons {
-    display: grid;
-    justify-content: right;
+    width: fit-content;
+    place-self: end;
     gap: 10px;
 }
 
@@ -230,6 +234,7 @@ header {
     grid: span 2/4;
     gap: 15px;
     max-width: fit-content;
+    grid-template-columns: 30% 30% 30%;
 }
 
 .trending embed {
