@@ -44,11 +44,6 @@ header {
     max-width: 150px;
 }
 
-.sidebar embed {
-    height: 50px;
-    max-width: 50px;
-}
-
 .sidebar p {
     font-size: 2.5em;
 }
@@ -105,6 +100,12 @@ header {
     font-size: 30px;
 }
 
+.welcome div {
+    display: grid;
+    font-size: 25px;
+    place-content: start;
+}
+
 .welcome {
     display: grid;
     grid-row: 2;
@@ -112,9 +113,10 @@ header {
     width: 300px;
 }
 
-.welcome div {
+.welcome img {
     display: grid;
-    font-size: 25px;
+    place-self: start;
+    width: 100px;
 }
 
 .buttons {
