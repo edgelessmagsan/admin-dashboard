@@ -72,9 +72,9 @@ header {
 
 .navbar {
     display: grid;
+    font-weight: bold;
     grid-column: 2/4;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
+    grid-template-columns: 2fr 1fr;
     gap: 10px;
     background-color: white;
     box-shadow: 1px 3px #888888;
@@ -82,25 +82,16 @@ header {
 
 .navbar input {
     display: grid;
-    width: 600px;
+    width: 100%;
     height: 3em;
     border-radius: 20px;
     padding: 20px;
 }
-.navbar div {
-    display: grid;
-    font-weight: bold;
-}
 
-.logo #bell {
+.logo {
     display: grid;
-    height: 70px;
-}
-
-.logo embed #icon {
-    display: grid;
-    height: 100px;
-    width: 70px;
+    justify-content: end;
+    grid-template-columns: repeat(3, 100px);
 }
 
 .logo div {
@@ -108,16 +99,10 @@ header {
     place-content: center;
 }
 
-.logo {
-    display: grid;
-    place-content: end;
-    grid-template-columns: repeat(3, 100px);
-}
-
 .logo a {
     color: black;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .welcome {
